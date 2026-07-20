@@ -29,4 +29,7 @@ function serve(chai:kulhadChai | Cutting){
     if(chai instanceof kulhadChai ){
         return chai.serve()
     }
+    if(chai instanceof Cutting){
+        return chai.serve()
+    }
 }
